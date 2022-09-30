@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>border</title>
+
+	<style type="text/css">
+		
+    .x{
+    	height: 200px;
+    	width: 200px;
+    	background: pink;
+    	border-radius: 25px;
+    }
+
+    .y{
+    	height: 200px;
+    	width: 200px;
+    	background: yellow;
+    	border-radius: 50%;
+    }
+
+    .z{
+    	height: 200px;
+    	width: 200px;
+    	background: gray;
+    	/*border-radius: 100px;*/
+    	/*border-radius: 10px 0;*/
+    	/*border-radius: 0 25px;*/
+    	/*border-radius: 0 25% 0 25%;*/
+    	border-radius: 0 50px 0 50px;
+    }
+
+	</style>
+</head>
+<body>
+	<div class="x">
+	</div>
+	<p>
+
+	<div class="y"></div>
+	<br>
+
+	<div class="z"></div>
+
+
+	<p style="border-style: solid;"> solid border</p>
+	<p style="border-style:dotted;"> dotted border</p>
+	<p style="border-style:dashed;">dashed border</p>
+	<p style="border-style:double;">double border</p>
+	<p style="border-style:groove;">groove border</p>
+	<p style="border-style:ridge;">ridge border</p>
+	<p style="border-style:inset;">inset border</p>
+	<p style="border-style:outset;">outset border</p>
+
+   <h2 style="border-style:solid dashed dotted double;"> All side</h2>
+
+   <!-- border: size style color -->
+   <h1 style="border:20px groove pink;">groove border with size and color</h1>
+   <h2 style="border: 15px ridge yellow;">ridge border with size and color</h2>
+   <h3 style="border:18px inset red">inset border with size and color</h3>
+   <h4 style="border: 19px outset gray;">outset border with size and color</h4>
+</body>
+</html>
