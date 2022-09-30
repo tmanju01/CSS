@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>padding box sizing</title>
+	<style type="text/css">
+
+		*{box-sizing: border-box;}
+
+		body{
+			background: linear-gradient(red,gray,pink,yellow,coral,white,green);
+			margin: 0;
+			height: 100vh;
+		}
+		.x{
+			height: 200px;
+			width: 200px;
+			background:coral;
+			padding: 50px;
+			text-align:center;
+			background: linear-gradient(green, yellow, pink, red);
+
+		}
+		.y{
+			height: 200px;
+			width: 200px;
+			background: pink;
+			/*padding: 50px;*/
+             /*padding-top: 60px;*/
+             border: 15px solid green;
+             line-height: 200px;
+             
+		}
+		.z{
+			height: 200px;
+			width: 200px;
+			background: pink;
+			padding: 50px;
+
+
+		}
+	</style>
+</head>
+<body>
+<div class="x"> hello</div>
+<br>
+
+<div class="y"> hello</div>
+<br>
+<div class="z">hello</div>
+
+</body>
+</html>
