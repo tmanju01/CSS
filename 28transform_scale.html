@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>transform scale</title>
+	<style type="text/css">
+		.x{
+			height: 200px;
+			width: 200px;
+			background: pink;
+			margin: 150px auto;
+			/*transform: scale(1.5);*/
+			transition: 1s;
+		}
+		.x:hover {
+			height: 300px;
+			width: 300px;
+			
+		}
+		.y{
+			height: 400px;
+			width: 450px;
+			background: blue;
+			margin: 150px auto;
+			transition: 1s;
+
+		}
+		.y:hover
+		{
+			transform: scale(0.6);
+		}
+	</style>
+</head>
+<body>
+<div class="x"></div>
+<div class="y"></div>
+</body>
+</html>
