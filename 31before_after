@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>before after</title>
+	<style>
+		div{
+			height: 200px;
+			width: 200px;
+			background: lightblue;
+		}
+		div::after{
+			content: "hii";
+			height: 200px;
+			width: 200px;
+			background: gray;
+			/*position: absolute;*/
+		}
+	</style>
+</head>
+<body>
+  <div>hello</div>
+</body>
+</html>
