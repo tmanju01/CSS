@@ -1,0 +1,61 @@
+*{margin: 0;}
+.header
+{
+	height: 100px;
+	width: 100%;
+	background: black;
+	display: flex;
+	position: fixed;
+	top: 0;
+}
+.header .logo{
+	height: 100px;
+	width: 10%;
+	background: lightblue;
+}
+
+.header .links{
+	height: 100px;
+	width: 90%;
+	background: lightcoral;
+}
+.slider{
+	height: 450px;
+	background: gray;
+	margin-top: 100px;
+}
+.content{
+	height: 950px;
+	background: blue;
+}
+.footerinfo{
+	height: auto;
+	background: gray;
+	padding: 15px;
+}
+.footerinfo h1{
+	background: green;
+}
+.footer{
+	height: 150px;
+	background: yellow;
+	display: flex;
+}
+.footer .p1{
+	height: 150px;
+	width: 25%;
+	border: 2px solid lightyellow;
+	position: relative;
+}
+.footer .p1 span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.contactinfo{
+	height: 500px;
+	background: coral;
+}
