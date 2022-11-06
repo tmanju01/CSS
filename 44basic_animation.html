@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation</title>
+	<style>
+		div{
+			height: 150px;
+			width: 150px;
+			background: deeppink;
+			margin: 100px auto;
+			/*animation-name: changecolor;
+			animation-duration: .31s;
+			animation-iteration-count:infinite;*/
+			animation: changecolor 10s infinite;
+		}
+
+		@keyframes changecolor
+		{
+			/*from{background: deeppink;}
+			to{background: yellowgreen; border-radius: 40%;}*/
+			0%{background: yellow;border-radius: 50%;}
+			10%{background: orange;border-radius: 50%;}
+			20%{background: blue; border-radius: 50%;}
+			30%{background: pink;border-radius: 50%;}
+			40%{background: black;border-radius: 50%;}
+			70%{background: gray; border-radius: 50%;}
+			100%{background: linear-gradient(pink,yellowgreen,blue,white);}
+		}
+	</style>
+</head>
+<body>
+    <div>
+    	
+    </div>
+</body>
+</html>
