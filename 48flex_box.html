@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flex</title>
+	<style type="text/css">
+		.content {
+			/*height: 100px;*/
+			width: 100%;
+			border: 1px solid;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.product{
+			flex-grow: 1;
+		}
+		.prd1{
+			background: yellow;
+		}
+		.prd2{
+			background: gray;
+			flex-basis: 600px;
+		}
+		.prd3{
+			background: pink;
+			flex-basis: 300px;
+		}
+		.prd4{
+			background: yellow;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="content">
+	<div class="product prd1">product 1</div>
+	<div class="product prd2">product 2</div>
+	<div class="product prd3">product3</div>
+	<div class="product prd4">product 4</div>
+</div>
+</body>
+</html>
