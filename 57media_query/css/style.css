@@ -1,0 +1,120 @@
+
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+	.header{
+	height: auto;
+	/*width: 100%;*/
+	background: white;
+	text-align: center;
+	padding: 25px;
+}
+.nav{
+	height: auto;
+	background: gray;
+     text-align: center;
+     line-height: 50px;
+     /*position: relative;*/
+}
+.nav .menu{
+	display: inline;
+	margin-right: 20px;
+	/*background: black;*/
+	position: relative;
+}
+
+
+.nav li .mein-link{
+	text-decoration: none;
+	color: white;
+	font-size: 27px;
+	/*background: pink;*/
+	padding: 13px 15px;
+	font-weight: bold;
+	border-radius: 9px;
+}
+.nav .dropdown{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 20%;
+	list-style: none;
+}
+.nav .menu:hover .dropdown{
+	display: block;
+
+}
+.nav .menu .dropdown li a{
+	color: white;
+	text-decoration: none;
+	/*background: pink;*/
+	border-radius: 5px;
+
+}
+.slider{
+	height: 500px;
+	background: url(F:/Manju_Github/CSS/CSS/57media_query/images/background.jpg);
+	background-size: 100% 100%;
+	/*background: url(images/background.jpg);*/
+}
+.content{
+	height: auto;
+	/*background: gray;*/
+	padding: 45px;
+}
+
+.content .product{
+	height:auto;
+	width: 90%;
+	/*background: blue;*/
+	margin: auto;
+	padding: 35px;
+	/*border: 2px solid green;*/
+	padding: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content .product .prd1,.prd2,.prd3,.prd4
+{
+	height: 300px;
+	flex-basis:200px;
+	/*border: 3px solid pink;*/
+	margin: 25px;
+	
+}
+.footer{
+	height: 150px;
+	background: black;
+}
+
+
+
+@media (max-width:500px)
+{
+	  .nav .menu{
+	 	width: 100%;
+	 	display: block;
+	 	text-align: center;
+
+	 	   
+	 }
+}
+@media(max-width: 500px)
+{
+	.nav .dropdown{
+		position: absolute;
+		top: 35%;
+		left: 45%;
+
+
+		
+	     
+	}
+}
+@media (max-width:1282px){
+      .content .product .prd1,.prd2,.prd3,.prd4{
+      	width: 80%;
+      	/*flex-grow:1;*/
+
+      }
+}
+
