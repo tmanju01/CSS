@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>antiClockWise</title>
+
+	<style>
+		.main{
+			height: 200px;
+			width: 200px;
+			border: 10px solid transparent;
+			border-top: 10px solid yellow;
+			margin: 200px auto;
+			position: relative;
+			animation: anticlockwise 4s  linear infinite;
+			border-radius: 50%;
+		}
+		.next1{
+			height: 150px;
+			width: 150px;
+			border: 10px solid transparent;
+			border-top: 10px solid pink;
+			position: absolute;
+			top: 10%;
+			left: 10%;
+			animation: clockwise 1s linear infinite;
+			border-radius: 50%;
+		}
+		.next2{
+			height: 100px;
+			width: 100px;
+			border: 10px solid transparent;
+			border-top: 10px solid gray;
+			position: absolute;
+			top: 20%;
+			left: 20%;
+			animation: anticlockwise 2s  linear infinite;
+			border-radius: 50%;
+		}
+		.next3{
+            height: 50px;
+			width: 50px;
+			border: 10px solid transparent;
+			border-top: 10px solid greenyellow;
+			position: absolute;
+			top: 32%;
+			left: 32%;
+			animation: clockwise 1s  linear infinite;
+			border-radius: 50%;
+		}
+		@keyframes clockwise{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+
+		@keyframes anticlockwise{
+			from{transform: rotate(360deg);}
+			to{transform: rotate(0deg);}
+		}
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="next1"></div>
+	<div class="next2"></div>
+	<div class="next3"></div>
+</div>
+</body>
+</html>
