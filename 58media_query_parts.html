@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>media query</title>
+	<style type="text/css">
+		.content{
+			height: 300px;
+			width: 100%;
+			background: hotpink;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.content .logo{
+			height: 300px;
+			width: 30%;
+			background:blue;
+			color: white;
+			text-align: center;
+			line-height: 300px;
+		}
+		.content .link{
+			height: 300px;
+			width: 70%;
+			background: black;
+			color: white;
+			text-align: center;
+			line-height: 300px;
+		}
+
+		@media(max-width:780px)
+		{
+			.content .logo,.content .link{
+				width: 50%;
+			}
+		}
+		@media(max-width: 500px)
+		{
+			.content .logo{width:100%}
+			.content .link{width:100%}
+		}
+	</style>
+</head>
+<body>
+      <div class="content">
+      	<div class="logo">
+      		Logo
+      	</div>
+      	<div class="link">
+      		Link
+      	</div>
+      </div>
+
+</body>
+</html>
