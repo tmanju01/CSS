@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tooltip</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.fa-user{
+          margin: 100px auto;
+          background: lightblue;
+          display: block;
+          width: 30%;
+          position: relative;
+		}
+		span{
+		
+			position: absolute;
+			top: -50px;
+			left: 0;
+			display: none;
+
+		}
+		.fa-user:hover span{
+			display: block;
+		}
+		div{
+          
+           margin: 100px auto;
+           width: 90%;
+           /*background: hotpink;*/
+		}
+		p{
+			display: none;
+           position: absolute;
+           margin: 0;
+           top: -50px;
+           left: 0;
+           
+		}
+		div{
+			position: relative;
+		}
+		div:hover p{
+			display: block;
+		}
+		
+
+
+	</style>
+</head>
+<body>
+
+   
+   
+    <i class="fa fa-user  fa-3x">
+    	<span>Icon Text</span>
+    </i>
+
+    
+    <div>
+    	Hover Me
+    	<p>Some Text</p>
+    </div>
+
+    
+   
+</body>
+</html>
