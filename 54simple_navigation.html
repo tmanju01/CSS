@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> simple Navigation</title>
+	<style>
+		*{margin: 0;padding: 0;}
+	   .mainmanu{
+	   	background: hotpink;
+	   }
+        .manu{
+        	display: inline;
+        	position: relative;
+        
+        }
+        .dropdown{
+        	display: none;
+        	position: absolute;
+        	top: 20px;
+        	left: 0;
+        	list-style: none;
+        	background:transparent;
+        	padding: 10px;
+
+        }
+        .manu:hover .dropdown{
+        	display: block;
+        }
+        a{
+           text-decoration: none;
+           color: blanchedalmond;
+           background: grey;
+
+        }
+
+	</style>
+</head>
+<body>
+
+      <ul class="mainmanu">
+		<li class="manu"><a href="">Home</a></li>
+		<li class="manu"><a href="">About</a></li>
+		<li class="manu"><a href="">Services</a>
+            <ul class="dropdown">
+            	<li><a href="">service1</a></li>
+            	<li><a href="">service2</a></li>
+            	<li><a href="">service3</a></li>
+
+
+
+            </ul>
+
+		</li>
+
+	</ul>
+
+
+
+	
+
+
+</body>
+</html>
