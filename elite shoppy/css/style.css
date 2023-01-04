@@ -1,0 +1,182 @@
+*{margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .header{
+ 	height: 50px;
+ 	width: 100%;
+ 	background: black;
+ 	color: white;
+ 	display: flex;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+ .header i{
+ 	color: skyblue;
+ 	margin-right: 12px;
+
+ }
+ .header .blank1{
+ 	height: 50px;
+ 	width: 16.66%;
+ 	/*background: pink;*/
+ }
+ .header .singin{
+ 	height: 50px;
+ 	width: 16.66%;
+ 	/*background: yellow;*/
+ 	border-right: 1px solid gray;
+ }
+ .header .singup{
+ 	height: 50px;
+ 	width: 16.66%;
+ 	/*background: blue;*/
+ 	border-right: 1px solid gray;
+ }
+ .header .call{
+ 	height: 50px;
+ 	width: 16.66%;
+ 	/*background:orange;*/
+ 	border-right: 1px solid gray;
+ }
+ .header .info{
+ 	height: 50px;
+ 	width: 16.66%;
+ 	/*background: skyblue;*/
+ 	border-right: 1px solid gray;
+ }
+ .header .blank2{
+ 	height: 50px;
+ 	width: 16.66%;
+ 	/*background:hotpink;*/
+ }
+
+ .subheader{
+   height: 130px;
+   width: 100%;
+   background: skyblue;
+   display: flex;
+   text-align: center;
+   line-height: 125px;
+ }
+ .subheader .search{
+   height: 130px;
+   width: 33.33%;
+   background: pink;
+ }
+.subheader .search input{
+   height:40px;
+   width: 73%;
+   border: 1px solid gray;
+}
+.subheader .search input::placeholder{
+   font-size: 19px;
+   letter-spacing: 1px;
+   word-spacing: 5px;
+}
+.subheader .search input:focus{
+   outline: none;
+}
+.subheader .search button{
+   border: none;
+   background: skyblue;
+   height: 40px;
+
+}
+.subheader .search .fa-search{
+   padding: 13px;
+
+}
+
+ 
+ .subheader .logo{
+   height: 130px;
+   width: 33.33%;
+   background: yellow;
+
+ }
+ .subheader .logo p{
+   font-size: 50px;
+   letter-spacing: 3px;
+
+
+ }
+ .subheader .logo .letter{
+   background: black;
+   color: white;
+   /*font-size: 50px;*/
+   padding: 15px;
+   /*margin-right: 15px;*/
+ }
+ .subheader .logo  .bag{
+   position: relative;
+ }
+ .subheader .logo .fa-shopping-bag{
+   position: absolute;
+   top: 55px;
+   left: 0;
+   font-size: 15px;
+   color: skyblue;
+ }
+
+ .subheader .icons{
+   height: 130px;
+   width: 33.33%;
+   background: gray;
+ }
+ .subheader .icons .fa-facebook,.fa-twitter,.fa-instagram,.fa-linkedin{
+   padding: 12px 14px;
+   background:skyblue;
+ }
+ .subheader .icons .fa-facebook{
+   background:#3b5998;
+   color: white;
+ }
+ .subheader .icons .fa-twitter{
+   background: #007bff;
+   color: white;
+ }
+ .subheader .icons .fa-instagram{
+     color: white;
+     background: #f77737;
+ }
+ .subheader .icons .fa-linkedin{
+      color: white;
+      background: #212121;;
+ }
+
+
+ .nav{
+   height: 70px;
+   width: 100%;
+   background: hotpink;
+   text-align: center;
+   line-height: 60px;
+ }
+ .nav .menu{
+   display: inline;
+   margin-right: 40px;
+   font-size: 20px;
+ position: relative;
+ }
+
+..nav .menu::after{
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 0;
+   background: gray;
+   transition: 0.7s;
+   height: 9px;
+   width: 0;
+}
+.nav .menu:hover::after 
+{
+   width: 100%;
+}
+.nav .menu a 
+{
+   text-decoration: none;
+   color: #fff;
+}
+ 
