@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>3d hover</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		*{box-sizing: border-box;}
+		a{
+			height: 100px;
+			width: 100px;
+			/*background: pink;*/
+			display: block;
+			transition: 1s;
+			position: relative;transform-style: preserve-3d;
+		}
+		.front{
+			height: 100px;
+			width: 100px;
+			background: yellow;
+			backface-visibility: hidden;
+			transition: 1s;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform: translateZ(25px);
+		}
+		.back{
+			height: 100px;
+			width: 100px;
+			background: red;
+			backface-visibility: hidden;
+			transition: 1s;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform:rotateX(90deg) translateZ(50px);
+		}
+		a:hover{
+			transform:rotateX(-90deg) ;
+		}
+
+	</style>
+</head>
+<body>
+
+<ul>
+	<a href="">
+		<div class="front">
+			<i class="fa fa-facebook"></i>
+		</div>
+		<div class="back">
+			<i class="fa fa-facebook"></i>
+		</div>
+	</a>
+</ul>
+</body>
+</html>
