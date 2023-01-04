@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>elite shoppy card</title>
+	<style type="text/css">
+		*{margin: 0;
+			padding: 0;
+			box-sizing: border-box;}
+
+		.product_card{
+			height: 450px;
+			width: 300px;
+			margin: 30px 5px;
+			/*background: pink;*/
+			/*margin: 50px auto;*/
+			box-shadow: 0 0 15px black;
+			position: relative;
+			
+		}
+		.product_card .prd_image{
+			height: 320px;
+			width: 300px;
+			background: white;
+     	
+
+		}
+		.product_card:hover .quick{
+			top: 260px;
+			opacity: 1;
+		}
+		.prd_image:hover{
+			background:#8f8f831f;
+		}
+		 .front{
+			height: 280px;
+			width: 300px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform: rotateY(180deg);
+			backface-visibility: hidden;
+			transition: 1s;
+			/*padding: 50px;*/
+			padding: 25px 50px;
+		}
+		 .back{
+			height: 280px;
+			width: 300px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			backface-visibility: hidden;
+			transform: rotateY(0deg);
+			transition: 1s;
+			padding: 25px 50px;
+		}
+	
+		.main:hover .back{
+			transform: rotateY(180deg);
+			
+		}
+		.main:hover .front{
+			transform: rotateY(0deg);
+			
+		}
+		.quick{
+			height: 60px;
+			width: 300px;
+			background: black;
+			color: white;
+			text-align: center;
+			line-height: 60px;
+			font-size: 21px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			transition: 1s;
+
+		}
+		/*.main:hover .quick{
+			top:260px ;
+			opacity: 1;
+			/*background: skyblue;*/
+
+		
+		.quick:hover{
+			background: skyblue;
+		}
+		.main{
+			height: 320px;
+			width:300px;
+			/*background: yellow;*/
+
+		
+
+			position: relative;
+		}
+
+		.container{
+			height: 130px;
+			width: 300px;
+			/*background: hotpink;*/
+			text-align: center;
+			line-height: 35px;
+			/*border: 1px solid;*/
+
+		}
+		.container p{
+			font-size: 21px;
+		}
+		.container .text{
+			color: hotpink;
+		}
+		.container del{
+			margin-left: 15px;
+			color: gray;
+		}
+		.container button{
+			padding: 10px 10px;
+			width: 250px;
+			background: skyblue;
+			border: none;
+			margin-top: 5px;
+			font-size: 17px;
+			color: white;
+		}
+		a:hover button{
+			border: 2px double skyblue;
+		}
+
+     .prd_card{
+     	display: flex;
+     	flex-wrap: wrap;
+     	border: 2px solid;
+     	padding: 15px 20px;
+     }
+      
+	</style>
+</head>
+<body>
+	<div class="prd_card">
+	<!-- product start -->
+	<div class="product_card">
+		<div class="prd_image">
+			<div class="main">
+			<div class="front">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				
+			</div>
+			<div class="back">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+			</div>
+		</div>
+			
+		</div>
+		<div class="quick">
+			Quick View
+		</div>
+		<div class="container">
+			<p class="text">Formal Blue Shirt</p>
+			<p>$45.99 <del>$69.71</del></p>
+			<a href=""><button>ADD TO CART</button></a>
+		</div>
+	</div>
+	         <!-- product end -->
+
+
+	         <!-- product start -->
+	<div class="product_card">
+		<div class="prd_image">
+			<div class="main">
+			<div class="front">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				
+			</div>
+			<div class="back">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+			</div>
+		</div>
+			
+		</div>
+		<div class="quick">
+			Quick View
+		</div>
+		<div class="container">
+			<p class="text">Formal Blue Shirt</p>
+			<p>$45.99 <del>$69.71</del></p>
+			<a href=""><button>ADD TO CART</button></a>
+		</div>
+	</div>
+	         <!-- product end -->
+
+
+	         <!-- product start -->
+	<div class="product_card">
+		<div class="prd_image">
+			<div class="main">
+			<div class="front">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				
+			</div>
+			<div class="back">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+			</div>
+		</div>
+			
+		</div>
+		<div class="quick">
+			Quick View
+		</div>
+		<div class="container">
+			<p class="text">Formal Blue Shirt</p>
+			<p>$45.99 <del>$69.71</del></p>
+			<a href=""><button>ADD TO CART</button></a>
+		</div>
+	</div>
+	         <!-- product end -->
+
+	         <!-- product start -->
+	<div class="product_card">
+		<div class="prd_image">
+			<div class="main">
+			<div class="front">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+				
+			</div>
+			<div class="back">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+			</div>
+		</div>
+			
+		</div>
+		<div class="quick">
+			Quick View
+		</div>
+		<div class="container">
+			<p class="text">Formal Blue Shirt</p>
+			<p>$45.99 <del>$69.71</del></p>
+			<a href=""><button>ADD TO CART</button></a>
+		</div>
+	</div>
+	         <!-- product end -->
+
+	     </div>
+
+</body>
+</html>
