@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>grid</title>
+	<style type="text/css">
+		.main{
+			height: auto;
+			/*width: 100%;*/
+		border: 2px solid yellow;
+		display: grid;
+		padding: 35px;
+		grid-gap: 5px;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 500px 500px;
+
+		}
+		.x{
+			border: 2px solid ;
+			/*overflow: auto;*/
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr ;
+			grid-template-rows: 60px 60px;
+		}
+		.y{
+			border: 2px solid pink;
+			display: grid;
+			/*grid-template-columns: 1fr;
+			grid-template-columns: 1fr 1fr ;
+			grid-template-rows: 48px ;*/
+		}
+		.a, .b{
+			border: 2px solid red;
+		}
+		@media (max-width: 800px)
+		{
+			.main{
+				grid-template-columns: 1fr; grid-template-rows:100px 100px 100px 100px;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="x">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<div class="x">
+		<div class="y"></div>
+		<div class="y">
+			<div class="a"></div>
+			<div class="b"></div>
+		</div>
+		<div class="y"></div>
+		<div class="y"></div>
+		<div class="y"></div>
+		<div class="y"></div>
+		<div class="y"></div>
+		<div class="y"></div>
+		<div class="y"></div>
+		<div class="y"></div>
+	</div>
+	<div class="x">x1</div>
+	<div class="x">x1</div>
+</div>
+</body>
+</html>
