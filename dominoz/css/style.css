@@ -1,0 +1,292 @@
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.header{
+	height: 100px;
+	width: 100%;
+	/*background: pink;*/
+	display: flex;
+	text-align: center;
+	line-height: 100px;
+}
+.header .logo{
+	height: 100px;
+	width: 20%;
+	/*background: yellow;*/
+
+	
+}
+.header .links{
+	height: 100px;
+	width: 60%;
+	/*background: coral;*/
+
+	
+
+}
+.header .links li{
+	display: inline;
+	padding-right: 10px;
+	font-size: 15px;
+	
+}
+.header .links li a{
+	text-decoration: none;
+	color: black;
+}
+.header .downloadbtn{
+	height: 100px;
+	width: 20%;
+	/*background: blue;*/
+	font-size: 25px;
+}
+.header .downloadbtn a{
+	text-decoration: none;
+	color: white;
+	background: darkred;
+	padding: 12px 10px;
+	 border-radius: 15px;
+}
+.ordersection{
+	height: 400px;
+	/*width: 100%;*/
+	/*background: gray;*/
+	background: #0074ac;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ordersection .order{
+	height: 400px;
+	width: 35%;
+	/*border: 2px solid;*/
+	padding: 100px 0 0 50px;
+}
+.ordersection .order .ordernow{
+    height: 200px;
+    width: 300px;
+    /*margin-top: 30px;
+    margin-left: 20px;*/
+    /*background: green;*/
+    display: inline;
+}
+.ordersection .order .ordernow p{
+	/*padding: 5px 0;*/
+	font-size: 20px;
+	/*margin: 15px;*/
+	margin: 10px 0px 10px 5px;
+	
+
+}
+.ordersection .order .ordernow p a{
+	background: green;
+	/*width: 300px;*/
+	padding: 10px 50px 0 50px;
+	margin-top: 25px;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+.ordersection .orderimage{
+	height: 400px;
+	width: 65%;
+	/*border: 2px solid;*/
+}
+.coupons_offers{
+	height: 600px;
+	width: 100%;
+	/*background: pink;*/
+	padding: 50px 0px;
+}
+.coupons_offers p{
+	/*height: 50px;*/
+	background: #d3cccc5e;
+	padding: 10px 20px;
+	/*font-size: 20px;*/
+	margin: 0
+
+
+}
+.coupons_offers p a{
+	text-decoration: none;
+	color: #576a9f;
+}
+.coupons_offers .offers{
+	height: auto;
+	width: 80%;
+	/*background: green;*/
+	margin: 50px auto;
+	color: #576a9f;
+
+}
+.coupons_offers .offers h1{
+	margin-left: 20px;
+}
+.coupons_offers .offers .offerimage{
+	height:auto ;
+	width: 100%;
+	/*border: 2px solid blue;*/
+	display: flex;
+	padding: 20px;
+	/*background: blue;*/
+}
+.coupons_offers .offers .offerimage .offerimage1{
+	height: 300px;
+	width: 50%;
+	padding: 5px;
+	/*background: gray;*/
+	/*border: 3px solid black;*/
+
+}
+
+
+/*vhj  k k j*/
+.explore{
+	height: 500px;
+	width: 100%;
+	/*background: hotpink;*/
+	padding-top: 30px;
+}
+.explore h1{
+	margin-left: 158px;
+	color: blueviolet;
+
+}
+ .explore .explore_card{
+	height: 330px;
+	width: 85%;
+	/*background: skyblue;*/
+	margin: 10px auto;
+	display: flex;
+	margin-left: 150px;
+}
+.explore_card .menu{
+	height: 300px;
+	width: 22%;
+	/*background: yellow;*/
+	margin: 10px;
+	border: 1px dotted gray;
+}
+.explore_card .store{
+	height: 300px;
+	width: 22%;
+	/*background: green;*/
+	margin: 10px;
+	border: 1px dotted gray;
+}
+.explore_card .party{
+	height: 300px;
+	width: 22%;
+	/*background: orange;*/
+	margin: 10px;
+	border: 1px dotted gray;
+}
+ .explore_card .catering{
+ 	height: 300px;
+ 	width: 22%;
+ 	/*background: blue;*/
+ 	margin: 10px;
+
+ 	border: 1px dotted gray;
+ }
+ .menu,.store,.party,.catering{
+ 	padding-top: 20px;
+
+
+
+ }
+  .explore_card img{
+ 	padding-left: 90px;
+ 	margin-right: 100px;
+ 	margin-bottom: 20px;
+ }
+
+ .explore_card span{
+ 	font-size: 18px;
+ 	margin-left: 60px;
+ 	font-weight: bold;
+ }
+ .explore_card p{
+ 	font-size: 16px;
+ 	margin-top: 20px;
+ 	margin-left: 25px;
+ 	color: gray;
+ }
+
+ .menu button{
+ 	height: 60px;
+ 	width: 243px;
+ 	font-size: 18px;
+ 	margin-top: 40px;
+ 	color:deeppink;
+ 	border: none;
+ 	border-top: 1px dotted gray;
+ 	background: transparent;
+    font-weight: bold;
+ }
+ .store button{
+ 	height: 60px;
+ 	width: 244px;
+ 	font-size: 18px;
+ 	margin-top: 36px;
+ 	color:deeppink;
+ 	border: none;
+ 	border-top: 1px dotted gray;
+ 	background: transparent;
+ 	font-weight: bold;
+ }
+ .party button{
+ 	height: 60px;
+ 	width: 243px;
+ 	font-size: 18px;
+ 	margin-top: 20px;
+ 	color:deeppink;
+ 	border: none;
+ 	border-top: 1px dotted gray;
+ 	background: transparent;
+ 	font-weight: bold;
+ }
+ .catering button{
+ 	height: 60px;
+ 	width: 244px;
+ 	font-size: 18px;
+ 	margin-top: 43px;
+ 	color:deeppink;
+ 	border: none;
+ 	border-top: 1px dotted gray;
+ 	background: transparent;
+ 	font-weight: bold;
+ }
+
+ /*jhvhjbk.jn,kn,n*/
+
+ .mobile{
+ 	height: 400px;
+ 	width: 100%;
+ 	/*background: yellow;*/
+ 	display: flex;
+ }
+ .mobile .mobileimg{
+ 	height: 400px;
+ 	width: 50%;
+ 	/*background: hotpink;*/
+ }
+ .mobile .mobileoffer{
+ 	height: 400px;
+ 	width: 50%;
+ 	background: green;
+ }
+ .mobileoffer{
+ 	text-align: center;
+ }
+ .mobileoffer h1{
+     margin-top: 60px;
+     font-size: 35px;
+     margin-left: 50px;
+ }
+ .mobileoffer p{
+ 	margin-top: 30px;
+ 	font-size: 22px;
+ 	margin-left: 150px;
+ 	margin-right: 100px;
+ }
